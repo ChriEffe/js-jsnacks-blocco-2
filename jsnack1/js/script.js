@@ -14,8 +14,10 @@ let randomName = names[Math.floor(Math.random() * names.length)];
 
 let randomSurname = surnames[Math.floor(Math.random() * surnames.length)];
 
-console.log(randomName);
-console.log(randomSurname);
+let randGuest = randomName + ` ` + randomSurname;
+
+console.log(randGuest);
+list.push(randGuest);
 }
 
 
